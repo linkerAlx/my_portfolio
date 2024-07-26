@@ -13,7 +13,7 @@ const Navbar : React.FC= () => {
       <button className="hover:underline lg:p-2 bg-blue-400 "> <Link to="/" ><FaHome className='lg:mx-16'/>Home</Link></button>
       <button className="hover:underline lg:p-2 bg-blue-400"> <Link to="/about" > <SiAboutdotme className='font-extrabold lg:mx-16'/>About </Link></button>
       <button className="hover:underline lg:p-2 bg-blue-400"><GiSkills className=' lg:mx-16'/>Skills</button>
-      <button className="hover:underline lg:p-2 bg-blue-400"><IoMdContact className='lg:mx-16'/>Contact us</button>
+      <button className="hover:underline lg:p-2 bg-blue-400 "><IoMdContact className='lg:mx-16'/>Contact</button>
       <button className="hover:underline lg:p-2 bg-blue-400"> <GoProject className='lg:mx-16'/>Projects</button>
      </div>
     </div>
