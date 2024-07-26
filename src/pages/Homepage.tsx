@@ -15,7 +15,7 @@ const Homepage: React.FC = () => {
       <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
         <Navbar />
         <div className="bg-white place-self-center lg:w-[1000px] w-11/12 flex lg:flex-row flex-col p-7 min-h-[600px] rounded-xl">
-          <div className=" m-auto lg:text-2xl font-serif">
+          <div className=" m-auto lg:text-lg font-serif">
             <h1 className="font-bold ">I'm INEZA LINKER Arlene; </h1>
             <h2 className="font-bold mb-2">
               Front-end developer and UI/UX Designer.
