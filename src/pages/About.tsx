@@ -3,6 +3,7 @@ import { FaGithub,FaLinkedinIn,FaInstagram, } from 'react-icons/fa';
 import{MdCall,MdEmail} from 'react-icons/md'
 import LaptopImage from '../assets/images/backgr.jpg';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const About: React.FC = () => {
   return (
@@ -31,6 +32,7 @@ const About: React.FC = () => {
             <div className='m-auto text-xl font-serif'> </div>
     </div>
     </div>
+    <Footer />
 </div>
   )
 }
