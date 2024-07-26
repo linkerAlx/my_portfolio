@@ -8,7 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/img/hero-pattern.svg')",
-        'background': "url('/images/backgr.jpg')",
+        'projects-bg': "url('/src/assets/images/backgr.jpg')",
         'background': "url('/images/background.jpg')",
         'background': "url('/images/download.jpg')",
       }
