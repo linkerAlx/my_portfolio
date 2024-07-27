@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import LinkerImage from "../assets/images/contact.jpg";
-import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaAddressBook, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { BsTwitterX } from 'react-icons/bs';
 import { MdCall, MdEmail } from 'react-icons/md';
 
@@ -20,7 +20,7 @@ const Contactpage:React.FC = () => {
       <div className="bg-white place-self-center lg:w-[1000px] w-11/12 flex  flex-col lg:flex-row p-7 gap-3 min-h-[600px] rounded-xl">
     
                   <div className='mx-auto font-medium'>
-                    <h1 className='text-lg font-bold '>Address:</h1>
+                    <h1 className='text-lg font-bold flex '> <FaAddressBook className='mt-1'/>Address:</h1>
                     <p>INEZA LINKER Arlene</p>
                     <p>Rwanda,Southern,Muhanga district</p>
                     <p className='flex'><MdEmail size={30} className='text-blue-400'/>:inezalinkera@gmail.com</p>
