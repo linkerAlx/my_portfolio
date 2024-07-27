@@ -16,7 +16,7 @@ const About: React.FC = () => {
 
       <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
         <Navbar />
-        <div className="bg-white place-self-center lg:w-[800px] w-11/12 flex lg:flex-row flex-col p-7 min-h-[600px] rounded-xl">
+        <div className="bg-white place-self-center lg:w-[800px] w-11/12 flex lg:flex-row flex-col p-7 min-h-[400px] rounded-xl">
           <div className="m-auto text-lg ">
             <h1 className="font-extrabold">ABOUT ME</h1>
             <img

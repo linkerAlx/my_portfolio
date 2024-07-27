@@ -17,7 +17,7 @@ const Contactpage:React.FC = () => {
 
     <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
       <Navbar />
-      <div className="bg-white place-self-center lg:w-[800px] w-11/12 flex  flex-col lg:flex-row p-7 gap-3 min-h-[600px] rounded-xl">
+      <div className="bg-white place-self-center lg:w-[800px] w-11/12 flex  flex-col lg:flex-row p-7 gap-3 min-h-[400px] rounded-xl">
     
                   <div className='mx-auto font-medium'>
                     <h1 className='text-lg font-bold flex '> <FaAddressBook className='mt-1'/>Address:</h1>

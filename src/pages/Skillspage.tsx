@@ -22,12 +22,12 @@ const Skillspage :React.FC= () => {
 
       <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
         <Navbar />
-        <div className="bg-white place-self-center lg:w-[800px] w-11/12 flex lg:flex-row flex-col p-7 min-h-[600px] rounded-xl">
+        <div className="bg-white place-self-center lg:w-[800px] w-11/12 flex lg:flex-row flex-col p-7 min-h-[400px] rounded-xl">
           
         <section id="skills" className="py-10 bg-gray-300 m-3">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-6 flex justify-center items-center"><GiSkills/>Skills</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           <div className="bg-white p-6 shadow-md">
             <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
             <ul>
