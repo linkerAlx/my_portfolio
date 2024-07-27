@@ -29,16 +29,16 @@ const Homepage: React.FC = () => {
             </p>
             <div className="flex flex-col  gap-4 font-medium ">
               <div className="flex mt-5 gap-4"><a href="#">
-                <FaLinkedinIn size={30} />
+                <FaLinkedinIn size={30} className="text-blue-600" />
               </a>
               <FaGithub size={30} />
-              <FaInstagram size={30} /></div>
+              <FaInstagram size={30} className="text-red-600"/></div>
               <div className="flex">
-                <MdEmail size={30} />
+                <MdEmail size={30} className="text-blue-600" />
                 <p className="hover:underline">:inezalinkera@gmail.com</p>
               </div>
               <div className="flex font-sans">
-                <MdCall size={30} />
+                <MdCall size={30} className="text-green-600" />
                 <p>:+250 783 653 651</p>
               </div>
             </div>
