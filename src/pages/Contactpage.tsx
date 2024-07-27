@@ -39,10 +39,10 @@ const Contactpage:React.FC = () => {
           <input type="email" name="" id="" placeholder='enter your E-mail'  className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'/><br />
           <label htmlFor="" className='block text-gray-700 text-lg font-bold mb-2'>Message</label>
           <textarea name="" id="" placeholder='enter your message' className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'></textarea><br />
-        <button className='bg-blue-400 rounded-lg p-2 font-extrabold mx-14  lg:mx-20'>Send</button>
+        <button className='bg-blue-400 rounded-lg p-2 font-extrabold  lg:mx-20'>Send</button>
         </form>
         </div>
-        <div className='flex  flex-row lg:flex-col justify-center items-center gap-10'>
+        <div className='flex  flex-row lg:flex-col justify-center items-center gap-8'>
           <FaGithub size={40}/>
           <FaInstagram size={40} className='text-red-600'/>
           <FaLinkedinIn size={40} className='text-blue-700'/>
