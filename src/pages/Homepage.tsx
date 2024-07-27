@@ -14,7 +14,7 @@ const Homepage: React.FC = () => {
 
       <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
         <Navbar />
-        <div className="bg-white place-self-center lg:w-[800px] w-11/12 flex lg:flex-row flex-col p-7 min-h-[400px] rounded-xl">
+        <div className="bg-white place-self-center lg:w-[1000px] w-11/12 flex lg:flex-row flex-col p-7 min-h-[400px] rounded-xl">
           <div className=" m-auto lg:text-lg font-serif">
             <h1 className="font-bold ">I'm INEZA LINKER Arlene; </h1>
             <h2 className="font-bold mb-2">
@@ -27,6 +27,11 @@ const Homepage: React.FC = () => {
               Explore my projects to see how I transform ideas into interactive
               digital solutions.
             </p>
+            <div className="flex flex-row">
+            <button className="bg-blue-400 text-xl font-bold p-2 rounded-lg mx-3 ">HIRE ME</button>
+            <button className="bg-blue-400 text-xl font-bold p-2 rounded-lg flex"> <FaGithub />GitHub</button>
+            </div>
+
             <div className="flex flex-col  gap-4 font-medium ">
               <div className="flex mt-5 gap-4"><a href="#">
                 <FaLinkedinIn size={30} className="text-blue-600" />

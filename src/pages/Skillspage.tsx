@@ -22,7 +22,7 @@ const Skillspage :React.FC= () => {
 
       <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
         <Navbar />
-        <div className="bg-white place-self-center lg:w-[800px] w-11/12 flex lg:flex-row flex-col p-7 min-h-[400px] rounded-xl">
+        <div className="bg-white place-self-center lg:w-[1000px] w-11/12 flex lg:flex-row flex-col p-7 min-h-[400px] rounded-xl">
           
         <section id="skills" className="py-10 bg-gray-300 m-3">
       <div className="container mx-auto">
