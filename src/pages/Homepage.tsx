@@ -23,21 +23,28 @@ const Homepage: React.FC = () => {
             <p className="font-medium ">
               {" "}
               I have dedicated my life to mastering cutting-edge technologies to
-              create visually stunning.
-              Explore my projects to see how I transform ideas into interactive
-              digital solutions.
+              create visually stunning. Explore my projects to see how I
+              transform ideas into interactive digital solutions.
             </p>
             <div className="flex flex-row">
-            <button className="bg-blue-400 text-xl font-bold p-2 rounded-lg mx-3 ">HIRE ME</button>
-            <button className="bg-blue-400 text-xl font-bold p-2 rounded-lg flex"> <FaGithub />GitHub</button>
+              <button className="bg-blue-400 text-xl font-bold p-2 rounded-lg mx-3 ">
+                HIRE ME
+              </button>
+              <button className="bg-blue-400 text-xl font-bold p-2 rounded-lg flex">
+                {" "}
+                <FaGithub />
+                GitHub
+              </button>
             </div>
 
             <div className="flex flex-col  gap-4 font-medium ">
-              <div className="flex mt-5 gap-4"><a href="#">
-                <FaLinkedinIn size={30} className="text-blue-600" />
-              </a>
-              <FaGithub size={30} />
-              <FaInstagram size={30} className="text-red-600"/></div>
+              <div className="flex mt-5 gap-4">
+                <a href="#">
+                  <FaLinkedinIn size={30} className="text-blue-600" />
+                </a>
+                <FaGithub size={30} />
+                <FaInstagram size={30} className="text-red-600" />
+              </div>
               <div className="flex">
                 <MdEmail size={30} className="text-blue-600" />
                 <p className="hover:underline">:inezalinkera@gmail.com</p>

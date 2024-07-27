@@ -52,7 +52,7 @@ const About: React.FC = () => {
             <div className="flex  flex-col  gap-4 font-medium ">
               <div className="flex m-auto p-3 gap-4  ">
                 <a href="#">
-                  <FaLinkedinIn size={30}  className="text-blue-600"/>
+                  <FaLinkedinIn size={30} className="text-blue-600" />
                 </a>
                 <FaGithub size={30} />
                 <FaInstagram size={30} className="text-red-600" />
