@@ -1,11 +1,10 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { VscCodeOss } from 'react-icons/vsc';
 import { DiGithub, DiJavascript } from 'react-icons/di';
 import { SiTypescript } from 'react-icons/si';
 import { FaCss3, FaFigma, FaReact } from 'react-icons/fa6';
-import { GiSkills, GiTablet } from 'react-icons/gi';
+import { GiSkills } from 'react-icons/gi';
 import { GrMysql } from 'react-icons/gr';
 import { FaGitAlt, FaHtml5 } from 'react-icons/fa';
 import { RiTailwindCssFill } from 'react-icons/ri';
