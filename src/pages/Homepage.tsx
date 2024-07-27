@@ -33,7 +33,13 @@ const Homepage: React.FC = () => {
               <button className="bg-blue-400 text-xl font-bold p-2 rounded-lg flex">
                 {" "}
                 <FaGithub />
-                GitHub
+                <a
+                  href="https://github.com/linkerAlx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View GitHub
+                </a>
               </button>
             </div>
 
